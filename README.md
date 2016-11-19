@@ -35,11 +35,13 @@ https://docs.microsoft.com/en-us/azure/redis-cache/cache-faq#which-azure-cache-o
 
 Ok
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Feature                 | AppFabric   | Ezcache   | Hazelcast      | Redis   |  Memcached  |
+| ----------------------- |:-----------:| :-------: | :-------------:| :-----: | :---------: |
+| Key/Value store         | yes         |           |                |   yes   |   yes       |
+| Complex data types      |             |           |                |   yes   |   no        |
+| Platform independent    |             |           |                |   yes   |   yes       |
+| Multi-threading         |             |           |                |   no    |   yes       |
+| Licence                 | Commercial  |  Both     |                |   OS    |   OS        |
 
 
 When it comes to boosting application performance through caching, Redis and Memcached are the most established and production-proven candidates. 
@@ -70,10 +72,6 @@ Used by many companies and in countless mission-critical production environments
 * 
 
 
-| Feature          | Software AG         | Memcached | Redis | Microsoft AppFabric |
-|                  | Enterprise Ehcache  |           |       |                     |
-| ---------------- |:------------------: | :--------:| :---: | :-----------------: |
-| Key/Value Store  | Yes                 | Yes       | Yes   | Yes                 |
 
 
 ### Enterprise Ehcache / Software AG
